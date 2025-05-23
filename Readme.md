@@ -39,20 +39,26 @@ A full-stack task management application with user authentication, LinkedIn prof
 ## Tech Stack
 
 ### Frontend
-- Next.js 15+ with App Router
-- React 19
-- Redux Toolkit for state management
-- RTK Query for API data fetching
-- Tailwind CSS for styling
-- TypeScript for type safety
+- Next.js v15.3.2 with App Router
+- React v19.0.0
+- Redux Toolkit v2.8.2 for state management
+- RTK Query
+- React Redux v9.2.0
+- React Toastify v11.0.5 for notifications
+- Tailwind CSS v4.1.7 for styling
+- TypeScript v5 for type safety
+- PostCSS v8.5.3 for CSS processing
 
 ### Backend
-- NestJS framework
-- MongoDB with Mongoose ODM
-- JWT for authentication
-- Passport for authentication strategies
-- bcrypt for password hashing
-- Puppeteer for LinkedIn profile scraping
+- NestJS v11.0.1 framework
+- MongoDB with Mongoose ODM v11.0.3
+- JWT v11.0.0 for authentication
+- Passport v0.7.0 with passport-jwt v4.0.1 for authentication strategies
+- bcrypt v6.0.0 for password hashing
+- Puppeteer v24.9.0 for LinkedIn profile scraping
+- RxJS v7.8.1 for reactive programming
+- class-validator v0.14.2 for input validation
+- TypeScript (Node.js v22 types)
 
 ## Getting Started
 
