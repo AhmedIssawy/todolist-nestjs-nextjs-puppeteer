@@ -1,0 +1,22 @@
+{
+  "name": "assesment",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ahmed Issawy",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm run start:dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/puppeteer": "^5.4.7",
+    "concurrently": "^9.1.2",
+    "puppeteer": "^24.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
